@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Flake it till you make it
-subtitle: Excerpt from Soulshaping by Jeff Brown
+title: Making a scalable healthcare system 
+subtitle: A self learning system, so intuitive that work with seamless integration
 cover-img: /assets/img/path.jpg
 image: /assets/img/path.jpg
 share-img: /assets/img/path.jpg
