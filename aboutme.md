@@ -1,16 +1,16 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: About Siddhartha
+subtitle: Always take the big swings, either you break some eggs or have a black eye!!
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+My name is Siddhartha Shrivastava. I have the following qualities:
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+- I am constantly learning new domains, experiences and skill-sets
+- I like to think mostly in graphs, distributions and analogy.
 
 What else do you need?
 
 ### my history
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+My academic training is done in Electrical engineering and Data Science, with a couple of year of experience, I am super excited about real world applications.
