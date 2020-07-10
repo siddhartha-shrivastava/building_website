@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Data Warehouse vs. Data Lake
-subtitle: How does one differs from another
+subtitle: How does one differs from the another
 gh-repo: siddhartha-shrivastava
 comments: true
 ---
