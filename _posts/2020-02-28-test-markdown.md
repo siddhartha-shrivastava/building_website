@@ -1,22 +1,17 @@
 ---
 layout: post
 title: Data Warehouse vs. Data Lake
-subtitle: How does one is different from other
-gh-repo: daattali/beautiful-jekyll
-gh-badge: [star, fork, follow]
-tags: [test]
+subtitle: How does one differs from another
+gh-repo: siddhartha-shrivastava
 comments: true
 ---
 
 In this post I will try to explain the difference between the commonly used term Data Warehouse and not so common term 'Data Lake' (Although Data Scientists/ ML Engineers are pretty familiar with it)
 
-I strongly encourage you to [take 5 minutes to learn how to write in markdown](https://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/headings/tables/etc.
-
 Big Data has been around for now almost a decade, but during last couple of years its importance has moved from being 'an advantage' to 'system critical' or business critical. In here, I will try my best to explain the difference between the two of them.
 
-
-While I am currently working extensively with Medical datasets, which somebody took painful efforts to clean and curate, its often that, the data recieved by researchers is limited as it may not fullfill from one to many criteria, thus may not make to the database. 
-While discussing it with my couple of friends, regarding the data lake, I found that most of the people think data lake is an advnaced version of data warehouse with enhanced capabilty and more functions can be executed, which infact is not the case.
+While I am currently working extensively with Medical datasets, which somebody took painful efforts to clean and curate, its often that, the data recieved by researchers is limited. As it may not fullfill from one to many criteria, thus may not make it to the database. 
+While discussing with my couple of friends, regarding the data lake, I found that, most of the people think data lake is just an advnaced version of data warehouse with more functional capabilty and  functions to be executed, **which infact is not the case**.
 
 **First and Foremost, Definitions!!**
 
