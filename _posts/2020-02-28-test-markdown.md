@@ -18,7 +18,7 @@ Big Data has been around for now almost a decade, but during last couple of year
 While I am currently working extensively with Medical datasets, which somebody took painful efforts to clean and curate, its often that, the data recieved by researchers is limited as it may not fullfill from one to many criteria, thus may not make to the database. 
 While discussing it with my couple of friends, regarding the data lake, I found that most of the people think data lake is an advnaced version of data warehouse with enhanced capabilty and more functions can be executed, which infact is not the case.
 
-**First and Foremost, definitions**
+**First and Foremost, Definitions!!**
 
 ### Data Warehouse
 According to [Wikipedia](https://en.wikipedia.org/wiki/Data_warehouse):
@@ -37,37 +37,43 @@ And since, the data is defined beforhand for its purpose of use, it represents a
 
 
 
-Data Lake
-Pentaho CTO James Dixon has generally been credited with coining the term “data lake”. He describes a data mart (a subset of a data warehouse) as akin to a bottle of water…”cleansed, packaged and structured for easy consumption” while a data lake is more like a body of water in its natural state. Data flows from the streams (the source systems) to the lake. Users have access to the lake to examine, take samples or dive in.
+**Data Lake**
+One of the most layperson explaination which I got for the Data Lake was from the **Forbes** article, where they explained
+“If you think of a datamart as a store of **bottled water** – cleansed and packaged and structured for easy consumption – the data lake is a large body of water in a more **natural state**. The contents of the data lake stream in from a source to fill the lake, and various users of the lake can come to examine, dive in, or take samples.”
+
+Here, the **natural state & Bottled water** is a faboulous analogy which clearly explains the stark difference between Data Warehouse and Data Lake
+FYI - Pentaho CTO James Dixon has generally been credited with coining the term “data lake”.
+
+A data lake holds data in an unstructured or more natural way it was generated and there is no hierarchy or organization among the individual pieces of data unlike Data Warehouse. It holds data in its rawest form—it’s not processed or analyzed. Apart from being a **Universal data Accepter**, it supports data in all the bandwidths i.e in the most raw form (which can be a sparse data, a big headache) to the ready to use polished data. It supports all data types and Schemas as well.
+
+So , we can say that:
+
+All the data is accepted without any truncation or modification ; Data is stored in an untransformed or raw state.
 
 
-This is also a fairly imprecise definition. Let's add a few specific properties of a data lake:
+Now, Lets quicly jump to the question, **Why we need data lake?** 
+The answer is pretty broad, but I will try to explain in bullet points:
 
-All data is loaded from source systems. No data is turned away.
+### Data movement
+Data Lakes allow you to import any amount of data that can come in real-time. Data is collected from multiple sources, and moved into the data lake in its original format. This process allows you to scale to data of any size, while saving time of defining data structures, schema, and transformations.
 
-Data is stored at the leaf level in an untransformed or nearly untransformed state.
+### Analytics
+Data Lakes allow various roles in your organization like data scientists, data developers, and business analysts to access data with their choice of analytic tools and frameworks. This includes open source frameworks such as Apache Hadoop, Presto, and Apache Spark, and commercial offerings from data warehouse and business intelligence vendors. Data Lakes allow you to run analytics without the need to move your data to a separate analytics system.
 
-Data is transformed and schema is applied to fulfill the needs of analysis.
-
-Next, le
-
-
-
+### Machine Learning
+Data Lakes will allow organizations to generate different types of insights including reporting on historical data, and doing machine learning where models are built to forecast likely outcomes, and suggest a range of prescribed actions to achieve the optimal result.
 
 
-**Here is some bold text**
+## Here's a quick comparison table:
 
-## Here is a secondary heading
-
-Here's a useless table:
-
-| Number | Next number | Previous number |
+| Characteristics| Data Warehouse |Data Lake |
 | :------ |:--- | :--- |
-| Five | Six | Four |
-| Ten | Eleven | Nine |
-| Seven | Eight | Six |
-| Two | Three | One |
+| Data | Designed prior to the DW implementation (schema-on-write) | 		Written at the time of analysis (schema-on-read)|
+| Schema | 	Relational from transactional systems, operational databases, and line of business applications | 	Non-relational and relational from IoT devices, web sites, mobile apps, social media, and corporate applications|
+| Data Quality | Highly curated data that serves as the central version of the truth | 	Any data that may or may not be curated (ie. raw data)|
+| Analytics | Batch reporting, BI and visualizations | Machine Learning, Predictive analytics, data discovery and profiling |
 
+**Courtsey: Amazon**
 
 How about a yummy crepe?
 
