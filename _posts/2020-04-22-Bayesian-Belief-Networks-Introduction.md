@@ -1,3 +1,5 @@
+
+
 In the world of machine learning and advanced analytics, everyday data scientists solve tons of problems with the help of newly developed and sophisticated AI techniques. The main focus while solving these problems is to deliver highly accurate and error-free results. However, while implementing these techniques in a business context, it is essential to provide a list of actionable levers/drivers of the model output that the end-users can use to make business decisions. This requirement applies to solutions developed across industries. One such machine learning technique that focusses on providing such actionable insights is the Bayesian Belief Network, which is the focus of this blog. The assumption here is that the reader has some understanding of machine learning and some of the associated terminologies.
 
 Several approaches are currently being used to understand these drivers/levers. However, most of them follow a simple approach to understand the direct cause-effect relationship between the predictors and the target. The main challenges with such an approach is that:
@@ -114,10 +116,6 @@ Parameter Learning
 
 Another major component of BBN is the Conditional Probability Table (CPT). Since each node in the structure is a random variable, it can take multiple values/states. Each state will have some probability of occurrence. We call these probabilities as Beliefs. Also, each node is connected to other nodes in the network. As per the structure, we learn the conditional probability of each state of a node. The tabular form of all such probabilities is called CPT.
 
-Conclusion
+**Taken from Tiger Analytics Blog**
 
-This blog aims to equip you with the bare minimum concepts that are required to construct a discrete BBN and understand its various components. Structure learning and Parameter learning are the two major components that are necessary to build a BBN. The concepts of Bayes theorem, joint and marginal probability work as the base for the Network while the propagation of evidence is required to understand the functionality of BBN.
 
-BBN can be used like any other machine learning technique. However, it works best where there are interdependencies among the predictors, and the number of predictors is less. The best part of the BBN is its intuitive way of explaining the drivers of evidence.
-
-Stay tuned to this space to learn how this concept can be applied for event prediction, driver analysis, and intervention assessment of a given classification problem.
